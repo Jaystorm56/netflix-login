@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: 0;
+  box-sizing:border-box;
+  font-family: sans-serif;
+}
+
+body{
+  
+  /* background-color: rgba(0, 0, 0, 0.952); */
+  background: url('netflix.jpg');
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+h1{
+  color: red;
+  font-size: 25px;
+  font-family: 100;
+}
+
+.container{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  /* border: 2px solid red; */
+  background-color: rgba(0, 0, 0, 0.829);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-evenly;s */
+  gap: 10px;
+  padding-bottom: 20px;
+}
+h3{
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 90px;
+  color: white;
+}
+
+::placeholder{
+  color: white;
+}
+
+form input{
+  width: 300px;
+  color: white;
+  height: 50px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  background-color:rgb(126, 151, 151);
+  opacity: 0.6;
+}
+button{
+  background-color: red;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 50px;
+}
+label{
+  font-size: 12px;
+  font-weight: 100;
+  text-decoration: transparent;
+  color: rgba(245, 245, 245, 0.616);
+  opacity: 0.7;
+}
+
+.checkboxp p{
+  font-size: 12px;
+  color: rgba(245, 245, 245, 0.616);
+  opacity: 0.7;
+}
+
+strong{
+  color: white;
+}
+p{
+  color: rgba(255, 255, 255, 0.596);
+  /* text-align: start; */
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.pcon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+p a {
+  text-decoration: underline;
+  /* background-color: aqua; */
+  color: hsl(0, 0%, 100%);
+  opacity: 1;
+}
+
